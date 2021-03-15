@@ -1,0 +1,2 @@
+- Change class name "MySocket" to "TCP_Client"
+- Implement ECC or RSA encryption
