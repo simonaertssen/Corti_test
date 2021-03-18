@@ -130,7 +130,7 @@ class FileWriter(MySocket):
         if stop_event.isSet():
             return
         line = self.recv(self.BUFFER_SIZE).decode("utf-8")
-        print(line)
+        print(line[0:-1])
         self.file.write(line)
 
     def releaseDependencies(self):

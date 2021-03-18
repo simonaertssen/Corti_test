@@ -1,0 +1,13 @@
+CHANGED:
+- Use .readline() instead of .readlines()
+- Added a comparison of the file size 
+- Measure of the transfer speed
+- Wrong indentation level of the hash.update()
+- Free resources of the objects
+- Added larger file
+- Used absolute path (for docker)
+
+TO CHANGE:
+- Send number of bytes to receive first as a safety mechanism
+- Change class name "MySocket" to "TCP_Client"
+- Implement ECC or RSA encryption
